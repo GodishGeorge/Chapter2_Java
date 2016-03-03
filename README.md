@@ -1,1 +1,1 @@
-/* This is the programming exercises for Chapter 2 */
+/* This is the programming exercises from Chapter 2 */
