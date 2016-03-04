@@ -1,0 +1,107 @@
+/* Chapter2.1 */
+/* Write a programthat converts celsius into fahrenheit */
+
+import java.util.*;
+
+public class Chapter2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter a degree in Celsius: ");
+		int celsius = input.nextInt();
+		
+		double fahrenheit = (9.0 / 5) * celsius + 32;
+		
+		System.out.println(celsius + " Celsius is " + fahrenheit + " Fahrenheit.");
+	}
+)
+
+/* Chapter2.2 */
+/* Write a program that reads the radius and length of a cylinder and computes the are and volume */
+
+import java.util.*;
+
+public class Chapter2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter the radius and length of a cylinder: ");
+		double radius = input.nextDouble(); 
+		double length = input.nextDouble();
+		
+		double area = radius * radius * 3.1415;
+		double volume = area * length;
+		
+		System.out.println("The area is " + area);
+		System.out.println("The volume is " + volume);
+	}
+
+}
+
+/* CHapter2.3 */
+/* Write a program that converts feet to meters */
+
+import java.util.*;
+
+public class Chapter2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter a value for feet: ");
+		double feet = input.nextDouble(); 
+		
+		double meters = feet * 0.305;
+		
+		System.out.println(feet + " feet is " + meters);
+		
+	}
+
+}
+
+/* Chapter2.4 */
+/* Write a program that coverts pounds into kilograms */
+
+import java.util.*;
+
+public class Chapter2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter a number in pounds: ");
+		double pounds = input.nextDouble(); 
+		
+		double kilograms = pounds * 0.454;
+		
+		System.out.println(pounds + " pounds is " + kilograms + " kilograms");
+	}
+
+}
+
+/* Chapter2.5 */
+/* Write a program that reads the subtotal and the gratuity rate, then computes the gratuity and total */
+
+import java.util.*;
+
+public class Chapter2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter the subtotal and a gratuity rate: ");
+		double subtotal = input.nextDouble(); 
+		double gratuity = input.nextDouble();
+		
+		double totgrat = subtotal * gratuity / 100;
+		double total = subtotal + totgrat;
+		
+		System.out.println("The gratuity is $" + totgrat + " and the total is $" + total);
+	}
+
+}
+
+/* Chapter2.6 */
+/* 
